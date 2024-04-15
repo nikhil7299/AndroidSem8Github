@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GeocoderKt">
+
+
+    <EditText
+        android:id="@+id/editAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        />
+    <Button
+        android:id="@+id/btnGetLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Location"
+        />
+
+
+    <TextView
+        android:id="@+id/txtViewLat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latitude : "
+        />
+    <TextView
+        android:id="@+id/txtViewLon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Longitude : "
+        />
+
+    <Button
+        android:id="@+id/btnShowMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show in Google Maps"
+        />
+
+</LinearLayout>
